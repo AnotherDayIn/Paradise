@@ -1,2 +1,2 @@
 # Paradise
-Shared Network
+Peer to Peer Shared Network
