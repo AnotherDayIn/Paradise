@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-Utility-DBAF7FD3-C1EF-447D-B066-64D61E2396DF</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\EncryptDecrypt\" />
+    <Folder Include="Areas\EncryptDecrypt\Encrypt\" />
+    <Folder Include="Areas\EncryptDecrypt\Trustbuilding\" />
+    <Folder Include="Areas\EncryptDecrypt\Encrypt\Block\" />
+    <Folder Include="Areas\EncryptDecrypt\Encrypt\Stream\" />
+    <Folder Include="Areas\EncryptDecrypt\Sign\" />
+    <Folder Include="Areas\EncryptDecrypt\Sign\UProve\" />
+    <Folder Include="Areas\EncryptDecrypt\Encrypt\Block\ETS\" />
+    <Folder Include="Areas\EncryptDecrypt\Encrypt\Block\STE\" />
+    <Folder Include="Areas\Encode\" />
+  </ItemGroup>
+</Project>
