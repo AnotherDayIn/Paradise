@@ -129,8 +129,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paradise", "Mobile\Paradise
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{F7019898-327F-4FA0-939D-9664E081C4E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParadiseHub", "ParadiseHub\ParadiseHub.csproj", "{50FCC40E-98D6-4902-A7F4-F930473D4272}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -633,18 +631,6 @@ Global
 		{C6027053-F915-469C-A758-6C3C51167232}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{C6027053-F915-469C-A758-6C3C51167232}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{C6027053-F915-469C-A758-6C3C51167232}.Release|iPhone.Build.0 = Release|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Release|Any CPU.Build.0 = Release|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{50FCC40E-98D6-4902-A7F4-F930473D4272}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -701,6 +687,5 @@ Global
 		{0D5CA1A7-AA52-48B1-9D3B-DC3F54090335} = {6BBAF158-8867-4FA8-821F-AACCF9B83F00}
 		{C6027053-F915-469C-A758-6C3C51167232} = {6BBAF158-8867-4FA8-821F-AACCF9B83F00}
 		{F7019898-327F-4FA0-939D-9664E081C4E0} = {01C5637C-707A-451E-945D-810E7D0C5688}
-		{50FCC40E-98D6-4902-A7F4-F930473D4272} = {F7019898-327F-4FA0-939D-9664E081C4E0}
 	EndGlobalSection
 EndGlobal
